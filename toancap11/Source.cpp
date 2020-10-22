@@ -19,7 +19,26 @@ int main() {
 	nhan = a * b;
 	chia = float(a / b);
 
-	cout << "Tong :" << tong << ",hieu" << hieu << ",nhan" << nhan << ",chia" << chia;
+	cout << "\nTong :" << tong << ",hieu" << hieu << ",nhan" << nhan << ",chia" << chia;
 
-	
+	// 2.0.0
+	// chu vi hinh vuong
+	int canhHv,chuviHv;
+	cout << "\nTinh chu vi hinh vuong, Nhap vao canh a hinh vuong:";
+	chuviHv = canhHv * 4;
+	cout << "\nket qua =" << chuviHv;
+	// chu vi hinh chu nhat
+	int daiHCN, rongHCN, chuViHCN;
+	cout << "\nTinh chu vi hinh chu nhat, nhap vao chieu dai, chieu rong hinh chu nhat:";
+	cin >> daiHCN;
+	cin >> rongHCN;
+	chuViHCN = (daiHCN + rongHCN) * 2;
+	cout << "\nket qua  =" << chuViHCN;
+	// chu vi hinh tron
+	int duongKinh; float chuViHinhTron;
+	cout << "\nTinh chu vi hinh tron, nhap vao chieu dai, chieu rong hinh chu nhat:";
+	cin >> daiHCN;
+	cin >> rongHCN;
+
+
 }
